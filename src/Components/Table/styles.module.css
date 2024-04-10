@@ -1,0 +1,24 @@
+.wrapper {
+    margin-left: 12px;
+    height: calc(100vh - 200px);
+}
+
+.headers {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr) 1fr;
+    grid-template-rows: 1fr;
+}
+
+.headers > div {
+    background-color: var(--cBgLow);
+    padding: 14px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+
+.items {
+    max-height: calc(100vh - 244px);
+    overflow-y: auto;
+}

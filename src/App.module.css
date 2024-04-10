@@ -1,0 +1,13 @@
+.wrapper {
+    min-height: 100vh;
+}
+
+.lowOpacityWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: var(--cBgBlack);
+    opacity: 0.3;
+}

@@ -1,0 +1,32 @@
+
+.pagesWrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.page {
+    padding: 8px 14.5px;
+    cursor: pointer;
+}
+
+.selectedPage {
+    border-radius: 6px;
+    color: var(--cTextSelected);
+    outline: 2px solid var(--cBorderSelected);
+    cursor: auto;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.arrowIconWrapper {
+    border: 1px solid var(--cBorderLow);
+    padding: 8px 14.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.transformedArrowIconWrapper {
+    transform: rotateY(180deg);
+}

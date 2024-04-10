@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 24px 20px 44px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: -0.03em;
+}
+
+.pagesCount {
+    background-color: var(--cBgSecond);
+    color: var(--cTextLight);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 475;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+}
+
+.controlWrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.newPositionButton {
+    background-color: var(--cBgSecond);
+    color: var(--cTextLight);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.newPosition {
+    font-size: 14px;
+    font-weight: 475;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.plusIcon {
+    width: 20px;
+    height: 20px;
+}

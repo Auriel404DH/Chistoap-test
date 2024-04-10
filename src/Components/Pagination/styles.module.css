@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 20px 20px 20px;
+
+}
+
+.viewCountSelectorWrapper {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.showText {
+    font-size: 14px;
+    font-weight: 475;
+    line-height: 20px;
+}

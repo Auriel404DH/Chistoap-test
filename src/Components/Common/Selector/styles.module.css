@@ -1,0 +1,46 @@
+.selectorWrapper {
+    position: relative;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--cBgThird);
+}
+
+.selectedViewCount {
+    color: var(--cTextLight);
+    font-size: 14px;
+    font-weight: 475;
+    line-height: 20px;
+}
+
+.openedSelectorValuesWrapper {
+    position: absolute;
+    bottom: 50px;
+    max-width: 73px;
+    width: 100%;
+    text-align: center;
+    color: var(--cTextLight);
+    background-color: var(--cBgThird);
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.selectorValue {
+   cursor: pointer;
+   user-select: none;
+}
+
+.openedArrowIcon {
+    transform: rotate(180deg);
+}
